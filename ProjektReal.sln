@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProjektReal", "ProjektReal\ProjektReal.csproj", "{26D00DAF-C7D0-4532-8802-6FE3718E272E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data Access Layer", "Data Access Layer\Data Access Layer.csproj", "{29B9B9DE-8DC8-4894-88BA-B5F52EA200F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic Access Layer", "Logic Access Layer\Logic Access Layer.csproj", "{04F51E3E-1A7E-4C06-BDC0-1D9B70DA2E12}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{26D00DAF-C7D0-4532-8802-6FE3718E272E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26D00DAF-C7D0-4532-8802-6FE3718E272E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26D00DAF-C7D0-4532-8802-6FE3718E272E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29B9B9DE-8DC8-4894-88BA-B5F52EA200F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B9B9DE-8DC8-4894-88BA-B5F52EA200F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B9B9DE-8DC8-4894-88BA-B5F52EA200F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B9B9DE-8DC8-4894-88BA-B5F52EA200F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04F51E3E-1A7E-4C06-BDC0-1D9B70DA2E12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04F51E3E-1A7E-4C06-BDC0-1D9B70DA2E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04F51E3E-1A7E-4C06-BDC0-1D9B70DA2E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04F51E3E-1A7E-4C06-BDC0-1D9B70DA2E12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
