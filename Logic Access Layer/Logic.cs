@@ -1,20 +1,29 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Xml.Serialization;
+using System.Text;
+using System.Xml;
+using System.Linq;
+using Data.Entities;
 
 namespace Logic_Access_Layer
 {
 
-    public class XML_reader
-    {
-        public void XMLfeeder ()
+    
+    
+        internal class RSSReader : IReader
         {
-            //Ladda hem XML.
+            
+        public IEnumerabe<FeedItem> Read (string url)
+            {
+        
             var xml = "";
+            var feedItems = new List<FeedItem>();
             using (var client = new System.Net.WebClient())
             {
                 client.Encoding = Encoding.UTF8;
-                xml = client.DownloadString("http://www.aftonbladet.se/rss.xml");
+                xml = client.DownloadString(url);
             }
 
             //Skapa en objektrepresentation.
@@ -28,37 +37,21 @@ namespace Logic_Access_Layer
                 //Skriv ut dess titel.
                 var title = item.SelectSingleNode("title");
                 Console.WriteLine(title.InnerText);
+                var publishDate = item.SelectSingleNode("pubDate").InnerText;
+                var id = Guid.NewGuid();
+                XmlNodeList link = item.SelectNodes ("link");
+                var links = link.cast<XmlNode>()
+                    .Select(node => node.innerText)
+                    .ToList();
+
+                var feedItem = new FeedItem() { title = title, id = id, Links = links, publishDate = publishDate};
+                feedItems.Add(feedItem);
             }
 
+            return feedItems;
         }
 
-        class Category
-        {
-            List<Category> categories = new List<Category>
-            {
-                new Category ("Hälsa"),
-                new Category ("Programmering"),
-                new Category ("Vetenskap")
-            };
-
-
-            public Category(string kategori)
-            {
-                Kategori = kategori;
-            }
-
-            public string Kategori { get; set; }
-
-            public override string ToString()
-            {
-                return Kategori.ToString();
-            }
-
-            internal void addCategory (string kategori)
-            {
-                categories.Add(new Category
-
-            }
+       
         }
     }
-}
+
