@@ -155,7 +155,7 @@
             // 
             // btnChangePodCate
             // 
-            this.btnChangePodCate.Location = new System.Drawing.Point(656, 409);
+            this.btnChangePodCate.Location = new System.Drawing.Point(664, 409);
             this.btnChangePodCate.Name = "btnChangePodCate";
             this.btnChangePodCate.Size = new System.Drawing.Size(182, 42);
             this.btnChangePodCate.TabIndex = 12;
