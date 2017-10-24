@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ProjektReal
@@ -22,11 +15,32 @@ namespace ProjektReal
 
         }
 
-        private void btnSettings_Click(object sender, EventArgs e)
+        private void btnPren_Click(object sender, EventArgs e)
         {
             Form1 form1 = new Form1();
             form1.Show();
             
+        }
+
+        private void btnMyPage_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.Show();
+        }
+
+        private void txtURL_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void lblURL_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSearch_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
