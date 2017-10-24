@@ -16,5 +16,10 @@ namespace ProjektReal
         {
             InitializeComponent();
         }
+
+        private void btnPren2_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

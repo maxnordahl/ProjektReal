@@ -38,8 +38,9 @@ namespace ProjektReal
 
         }
 
-        private void btnSearch_Click(object sender, EventArgs e)
+        public void btnSearch_Click(object sender, EventArgs e)
         {
+            string url = txtURL.Text;
 
         }
     }

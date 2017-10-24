@@ -95,6 +95,7 @@
             this.btnPren2.TabIndex = 6;
             this.btnPren2.Text = "Prenumerera";
             this.btnPren2.UseVisualStyleBackColor = true;
+            this.btnPren2.Click += new System.EventHandler(this.btnPren2_Click);
             // 
             // Form1
             // 

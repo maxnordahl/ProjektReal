@@ -1,7 +1,7 @@
 ﻿using System;
-using Data_Access_Layer;
+using Data;
 
-namespace Data_Access_Layer
+namespace Data
 {
     public class Podcast
     {

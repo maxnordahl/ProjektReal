@@ -17,10 +17,21 @@ namespace ProjektReal
             InitializeComponent();
         }
 
+
         private void btnHomePage_Click(object sender, EventArgs e)
         {
             Presentation home = new Presentation();
             home.Show();
+        }
+
+        private void lstBoxCate_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAddCate_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

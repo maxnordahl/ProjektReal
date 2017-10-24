@@ -4,22 +4,22 @@ using System.Text;
 using System.Xml;
 using System.Linq;
 
-namespace Logic_Access_Layer
+namespace Logic
 {
-
-
 
     internal class RSSReader
         {
             
-        public void rss ()
+        public List<FeedItem>sdsd (string url)
         {
+            
             //Ladda hem XML.
             var xml = "";
+            var feedItems = new List<FeedItem>;
             using (var client = new System.Net.WebClient())
             {
                 client.Encoding = Encoding.UTF8;
-                xml = client.DownloadString("http://www.aftonbladet.se/rss.xml");
+                xml = client.DownloadString(url);
             }
 
             //Skapa en objektrepresentation.
@@ -37,7 +37,7 @@ namespace Logic_Access_Layer
 
         }
 
-
+        
 
     }
     }

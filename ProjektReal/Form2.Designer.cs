@@ -79,6 +79,7 @@
             this.lstBoxCate.Name = "lstBoxCate";
             this.lstBoxCate.Size = new System.Drawing.Size(348, 244);
             this.lstBoxCate.TabIndex = 3;
+            this.lstBoxCate.SelectedIndexChanged += new System.EventHandler(this.lstBoxCate_SelectedIndexChanged);
             // 
             // lstBoxPod
             // 
@@ -106,6 +107,7 @@
             this.btnAddCate.TabIndex = 6;
             this.btnAddCate.Text = "Lägg till";
             this.btnAddCate.UseVisualStyleBackColor = true;
+            this.btnAddCate.Click += new System.EventHandler(this.btnAddCate_Click);
             // 
             // btnChangeCate
             // 
