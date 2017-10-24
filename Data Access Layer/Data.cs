@@ -1,8 +1,10 @@
 ﻿using System;
+using Data_Access_Layer;
 
 namespace Data_Access_Layer
 {
-    public class Data
+    public class Podcast
     {
+        private DataSaver dataSaver = new dataSaver(); 
     }
 }
