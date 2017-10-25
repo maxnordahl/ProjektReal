@@ -12,6 +12,8 @@ namespace ProjektReal
 {
     public partial class Form2 : Form
     {
+        public object Category { get; private set; }
+
         public Form2()
         {
             InitializeComponent();
@@ -32,6 +34,12 @@ namespace ProjektReal
         private void btnAddCate_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            //fylla lstBoxCate 
+            lstBoxCate.DataSource = Category;
         }
     }
 }

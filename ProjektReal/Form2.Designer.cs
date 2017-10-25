@@ -47,63 +47,67 @@
             // lblCate
             // 
             this.lblCate.AutoSize = true;
-            this.lblCate.Location = new System.Drawing.Point(72, 65);
+            this.lblCate.Location = new System.Drawing.Point(48, 42);
+            this.lblCate.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblCate.Name = "lblCate";
-            this.lblCate.Size = new System.Drawing.Size(68, 20);
+            this.lblCate.Size = new System.Drawing.Size(46, 13);
             this.lblCate.TabIndex = 0;
             this.lblCate.Text = "Kategori";
             // 
             // lblPod
             // 
             this.lblPod.AutoSize = true;
-            this.lblPod.Location = new System.Drawing.Point(504, 65);
+            this.lblPod.Location = new System.Drawing.Point(336, 42);
+            this.lblPod.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblPod.Name = "lblPod";
-            this.lblPod.Size = new System.Drawing.Size(67, 20);
+            this.lblPod.Size = new System.Drawing.Size(46, 13);
             this.lblPod.TabIndex = 1;
             this.lblPod.Text = "Podcast";
             // 
             // lblEpisode
             // 
             this.lblEpisode.AutoSize = true;
-            this.lblEpisode.Location = new System.Drawing.Point(919, 65);
+            this.lblEpisode.Location = new System.Drawing.Point(613, 42);
+            this.lblEpisode.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblEpisode.Name = "lblEpisode";
-            this.lblEpisode.Size = new System.Drawing.Size(57, 20);
+            this.lblEpisode.Size = new System.Drawing.Size(39, 13);
             this.lblEpisode.TabIndex = 2;
             this.lblEpisode.Text = "Avsnitt";
             // 
             // lstBoxCate
             // 
             this.lstBoxCate.FormattingEnabled = true;
-            this.lstBoxCate.ItemHeight = 20;
-            this.lstBoxCate.Location = new System.Drawing.Point(12, 97);
+            this.lstBoxCate.Location = new System.Drawing.Point(8, 63);
+            this.lstBoxCate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lstBoxCate.Name = "lstBoxCate";
-            this.lstBoxCate.Size = new System.Drawing.Size(348, 244);
+            this.lstBoxCate.Size = new System.Drawing.Size(233, 160);
             this.lstBoxCate.TabIndex = 3;
             this.lstBoxCate.SelectedIndexChanged += new System.EventHandler(this.lstBoxCate_SelectedIndexChanged);
             // 
             // lstBoxPod
             // 
             this.lstBoxPod.FormattingEnabled = true;
-            this.lstBoxPod.ItemHeight = 20;
-            this.lstBoxPod.Location = new System.Drawing.Point(435, 97);
+            this.lstBoxPod.Location = new System.Drawing.Point(290, 63);
+            this.lstBoxPod.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lstBoxPod.Name = "lstBoxPod";
-            this.lstBoxPod.Size = new System.Drawing.Size(421, 244);
+            this.lstBoxPod.Size = new System.Drawing.Size(282, 160);
             this.lstBoxPod.TabIndex = 4;
             // 
             // lstBoxEpisode
             // 
             this.lstBoxEpisode.FormattingEnabled = true;
-            this.lstBoxEpisode.ItemHeight = 20;
-            this.lstBoxEpisode.Location = new System.Drawing.Point(905, 97);
+            this.lstBoxEpisode.Location = new System.Drawing.Point(603, 63);
+            this.lstBoxEpisode.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.lstBoxEpisode.Name = "lstBoxEpisode";
-            this.lstBoxEpisode.Size = new System.Drawing.Size(364, 244);
+            this.lstBoxEpisode.Size = new System.Drawing.Size(244, 160);
             this.lstBoxEpisode.TabIndex = 5;
             // 
             // btnAddCate
             // 
-            this.btnAddCate.Location = new System.Drawing.Point(29, 361);
+            this.btnAddCate.Location = new System.Drawing.Point(19, 235);
+            this.btnAddCate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnAddCate.Name = "btnAddCate";
-            this.btnAddCate.Size = new System.Drawing.Size(86, 39);
+            this.btnAddCate.Size = new System.Drawing.Size(57, 25);
             this.btnAddCate.TabIndex = 6;
             this.btnAddCate.Text = "Lägg till";
             this.btnAddCate.UseVisualStyleBackColor = true;
@@ -111,36 +115,40 @@
             // 
             // btnChangeCate
             // 
-            this.btnChangeCate.Location = new System.Drawing.Point(136, 361);
+            this.btnChangeCate.Location = new System.Drawing.Point(91, 235);
+            this.btnChangeCate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnChangeCate.Name = "btnChangeCate";
-            this.btnChangeCate.Size = new System.Drawing.Size(88, 39);
+            this.btnChangeCate.Size = new System.Drawing.Size(59, 25);
             this.btnChangeCate.TabIndex = 7;
             this.btnChangeCate.Text = "Ändra";
             this.btnChangeCate.UseVisualStyleBackColor = true;
             // 
             // btnRemoveCate
             // 
-            this.btnRemoveCate.Location = new System.Drawing.Point(246, 361);
+            this.btnRemoveCate.Location = new System.Drawing.Point(164, 235);
+            this.btnRemoveCate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnRemoveCate.Name = "btnRemoveCate";
-            this.btnRemoveCate.Size = new System.Drawing.Size(102, 39);
+            this.btnRemoveCate.Size = new System.Drawing.Size(68, 25);
             this.btnRemoveCate.TabIndex = 8;
             this.btnRemoveCate.Text = "Ta bort";
             this.btnRemoveCate.UseVisualStyleBackColor = true;
             // 
             // btnStopPren
             // 
-            this.btnStopPren.Location = new System.Drawing.Point(451, 409);
+            this.btnStopPren.Location = new System.Drawing.Point(301, 266);
+            this.btnStopPren.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnStopPren.Name = "btnStopPren";
-            this.btnStopPren.Size = new System.Drawing.Size(176, 42);
+            this.btnStopPren.Size = new System.Drawing.Size(117, 27);
             this.btnStopPren.TabIndex = 9;
             this.btnStopPren.Text = "Avsluta prenumeration";
             this.btnStopPren.UseVisualStyleBackColor = true;
             // 
             // btnHomePage
             // 
-            this.btnHomePage.Location = new System.Drawing.Point(1034, 510);
+            this.btnHomePage.Location = new System.Drawing.Point(689, 331);
+            this.btnHomePage.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnHomePage.Name = "btnHomePage";
-            this.btnHomePage.Size = new System.Drawing.Size(165, 43);
+            this.btnHomePage.Size = new System.Drawing.Size(110, 28);
             this.btnHomePage.TabIndex = 10;
             this.btnHomePage.Text = "Startsida";
             this.btnHomePage.UseVisualStyleBackColor = true;
@@ -148,36 +156,39 @@
             // 
             // btnChangeUpdate
             // 
-            this.btnChangeUpdate.Location = new System.Drawing.Point(538, 358);
+            this.btnChangeUpdate.Location = new System.Drawing.Point(359, 233);
+            this.btnChangeUpdate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnChangeUpdate.Name = "btnChangeUpdate";
-            this.btnChangeUpdate.Size = new System.Drawing.Size(221, 42);
+            this.btnChangeUpdate.Size = new System.Drawing.Size(147, 27);
             this.btnChangeUpdate.TabIndex = 11;
             this.btnChangeUpdate.Text = "Ändra uppdateringsintervall";
             this.btnChangeUpdate.UseVisualStyleBackColor = true;
             // 
             // btnChangePodCate
             // 
-            this.btnChangePodCate.Location = new System.Drawing.Point(664, 409);
+            this.btnChangePodCate.Location = new System.Drawing.Point(443, 266);
+            this.btnChangePodCate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnChangePodCate.Name = "btnChangePodCate";
-            this.btnChangePodCate.Size = new System.Drawing.Size(182, 42);
+            this.btnChangePodCate.Size = new System.Drawing.Size(121, 27);
             this.btnChangePodCate.TabIndex = 12;
             this.btnChangePodCate.Text = "Ändra kategori";
             this.btnChangePodCate.UseVisualStyleBackColor = true;
             // 
             // btnShowMore
             // 
-            this.btnShowMore.Location = new System.Drawing.Point(1034, 361);
+            this.btnShowMore.Location = new System.Drawing.Point(689, 235);
+            this.btnShowMore.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnShowMore.Name = "btnShowMore";
-            this.btnShowMore.Size = new System.Drawing.Size(116, 42);
+            this.btnShowMore.Size = new System.Drawing.Size(77, 27);
             this.btnShowMore.TabIndex = 13;
             this.btnShowMore.Text = "Visa mer";
             this.btnShowMore.UseVisualStyleBackColor = true;
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1326, 601);
+            this.ClientSize = new System.Drawing.Size(884, 391);
             this.Controls.Add(this.btnShowMore);
             this.Controls.Add(this.btnChangePodCate);
             this.Controls.Add(this.btnChangeUpdate);
@@ -192,8 +203,10 @@
             this.Controls.Add(this.lblEpisode);
             this.Controls.Add(this.lblPod);
             this.Controls.Add(this.lblCate);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form2";
             this.Text = "Min sida";
+            this.Load += new System.EventHandler(this.Form2_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

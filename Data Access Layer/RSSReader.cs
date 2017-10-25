@@ -10,7 +10,7 @@ namespace Logic
     internal class RSSReader
         {
             
-        public List<FeedItem>sdsd (string url)
+        internal List<FeedItem> Rss (string url)
         {
             
             //Ladda hem XML.
